@@ -1,4 +1,8 @@
 this["JST"] = this["JST"] || {};
+this["JST"]["genre"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
+    return "";
+},"useData":true});
+this["JST"] = this["JST"] || {};
 this["JST"]["track"] = Handlebars.template({"1":function(depth0,helpers,partials,data) {
     return "  <i class=\"fa fa-play-circle\"></i>\n";
 },"3":function(depth0,helpers,partials,data) {

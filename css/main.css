@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: "PT Sans Caption", Helvetica, Arial, sans-serif;
 }
 .track-list {
@@ -34,4 +35,32 @@ body {
 .track-list td i:hover {
   color: #459a68;
   cursor: pointer;
+}
+header {
+  background: #f0f0f0;
+  height: 50px;
+  width: 100%;
+}
+header ul.main-nav {
+  list-style-type: none;
+  text-align: center;
+  padding: 20px 0 0 0 ;
+  margin: 0;
+}
+header ul.main-nav li {
+  display: inline;
+  margin: 0 10px;
+}
+.wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.wrapper aside {
+  width: 30%;
+  float: left;
+}
+.wrapper .main {
+  width: 70%;
+  float: right;
 }

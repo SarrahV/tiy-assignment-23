@@ -10,7 +10,7 @@ var Router = Backbone.Router.extend({
       collection: this.tracks
     });
 
-    $("body").append(this.tracksView.el);
+    $(".main").append(this.tracksView.el);
   },
 
   loadGenre: function(genre) {

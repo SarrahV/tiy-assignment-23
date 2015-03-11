@@ -1,5 +1,6 @@
 var Track = Backbone.Model.extend({
 
+
   play: function() {
     if(!this.stream) {
       this._loadStream();
