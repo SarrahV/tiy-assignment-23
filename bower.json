@@ -4,7 +4,7 @@
   "authors": [
     "JD Isaacks <jd@jisaacks.com>"
   ],
-  "license": "MIT",
+  "license": "ISC",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -22,5 +22,11 @@
   "devDependencies": {
     "mocha": "~2.2.1",
     "chai": "~2.1.1"
-  }
+  },
+  "homepage": "https://github.com/SarrahV/tiy-assignment-23",
+  "description": "SoundCloud App",
+  "keywords": [
+    "soundcloud"
+  ],
+  "private": true
 }
