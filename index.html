@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+  <!-- ==== STYLE SHEETS ==== -->
+
+  <!-- VENDOR -->
+  <link rel="stylesheet" href="vendor/css/vendor.css">
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'>
+
+  <!-- OURS -->
+  <link rel="stylesheet" href="css/main.css">
+
+
+  <!-- ==== JAVASCRIPT ==== -->
+
+  <!-- VENDOR -->
+  <script src="vendor/js/vendor.js"></script>
+  <script src="//connect.soundcloud.com/sdk.js"></script>
+  <script>
+    SC.initialize({
+      client_id: "c8bce9e7fae8a4674a3aaa85dbf9a633",
+      redirect_uri: "http://localhost:8000/callback.html",
+    });
+  </script>
+
+  <!-- TEMPLATES -->
+  <script src="js/templates.js"></script>
+
+  <!-- OURS -->
+  <script src="js/models.js"></script>
+  <script src="js/views.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+</body>
+</html>

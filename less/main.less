@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: "PT Sans Caption", Helvetica, Arial, sans-serif;
+}
+
+.track-list {
+  border-collapse: collapse;
+
+  th {
+    font-size: 12px;
+  }
+
+  .artwork img{
+    width: 50px;
+    height: 50px;
+    font-size: 10px;
+    color: #999;
+  }
+
+  tbody tr:nth-child(odd) {
+    background: #f0f0f0;
+  }
+
+  td span {
+    padding: 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 400px;
+    display: inline-block;
+  }
+
+  td i {
+    font-size: 28px;
+    color: #45789a;
+    margin-left: 15px;
+    vertical-align: -5px;
+    &:hover {
+      color: #459a68;
+      cursor: pointer;
+    }
+  }
+}
