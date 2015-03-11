@@ -40,6 +40,7 @@ header {
   background: #f0f0f0;
   height: 50px;
   width: 100%;
+  margin-bottom: 50px;
 }
 header ul.main-nav {
   list-style-type: none;
@@ -63,4 +64,8 @@ header ul.main-nav li {
 .wrapper .main {
   width: 70%;
   float: right;
+}
+.genre-list {
+  font-size: 2em;
+  color: #ccc;
 }

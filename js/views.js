@@ -133,3 +133,23 @@ var TrackCollectionView = Backbone.View.extend({
   }
 
 });
+
+var GenreSelectionView = Backbone.View.extend({
+
+  tagName: "ul",
+
+  className: "genre-list",
+
+  template: JST["genre"],
+
+  initialize: function() {
+    this.render();
+  },
+
+  render : function () {
+    this.$el.html(this.template() );
+    return this;
+  }
+});
+
+
