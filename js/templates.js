@@ -1,6 +1,6 @@
 this["JST"] = this["JST"] || {};
 this["JST"]["genre"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
-    return "  \n  <li><a href=\"/rock\" data-name=\"rock\">Rock</a></li>\n  <li><a href=\"/ambient\" data-name=\"ambient\">Ambient</a></li>\n  <li><a href=\"/classical\" data-name=\"classical\">Classical</a></li>\n  <li><a href=\"/country\" data-name=\"country\">Country</a></li>\n  <li><a href=\"/dance\" data-name=\"dance\">Dance</a></li>\n  <li><a href=\"/house\" data-name=\"house\">House</a></li>\n  <li><a href=\"/disco\" data-name=\"disco\">Disco</a></li>\n\n\n";
+    return "  \n  <li><a href=\"#\" data-genre=\"rock\">Rock</a></li>\n  <li><a href=\"#\" data-genre=\"ambient\">Ambient</a></li>\n  <li><a href=\"#\" data-genre=\"classical\">Classical</a></li>\n  <li><a href=\"#\" data-genre=\"country\">Country</a></li>\n  <li><a href=\"#\" data-genre=\"dance\">Dance</a></li>\n  <li><a href=\"#\" data-genre=\"house\">House</a></li>\n  <li><a href=\"#\" data-genre=\"disco\">Disco</a></li>\n\n\n";
 },"useData":true});
 this["JST"] = this["JST"] || {};
 this["JST"]["track"] = Handlebars.template({"1":function(depth0,helpers,partials,data) {

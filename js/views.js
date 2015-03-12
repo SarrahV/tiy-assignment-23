@@ -156,13 +156,9 @@ var GenreSelectionView = Backbone.View.extend({
 
   onClick: function(e) {
     e.preventDefault();
-    $link = this.$(e.currentTarget);
-    var name = $link.data("name");
-    var href = $link.attr("href");
-    this.trigger("link:click", {
-      name: name,
-      href: href
-    });
+    var $link = this.$(e.currentTarget);
+    var genre = $link.data("genre");
+    this.trigger("link:click", genre);
   }
 
 });
