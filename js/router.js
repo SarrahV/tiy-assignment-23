@@ -19,9 +19,9 @@ var Router = Backbone.Router.extend({
 
   // listeners
 
-  this.listenTo(this.listView, "link:click", function(name){
+  /*this.listenTo(this.listView, "link:click", function(name){
     this.listView.loadGenre(name);
-  });
+  });*/
 
   loadGenre: function(genre) {
     this.tracks.loadGenre(genre);
