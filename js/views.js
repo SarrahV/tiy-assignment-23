@@ -135,6 +135,9 @@ var TrackCollectionView = Backbone.View.extend({
 });
 
 var GenreSelectionView = Backbone.View.extend({
+  events: {
+    "click a" : "onClick"
+  },
 
   tagName: "ul",
 
@@ -149,7 +152,19 @@ var GenreSelectionView = Backbone.View.extend({
   render : function () {
     this.$el.html(this.template() );
     return this;
+  },
+
+  onClick: function(e) {
+    e.preventDefault();
+    $link = this.$(e.currentTarget);
+    var name = $link.data("name");
+    var href = $link.attr("href");
+    this.trigger("link:click", {
+      name: name,
+      href: href
+    });
   }
+
 });
 
 
